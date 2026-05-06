@@ -1,6 +1,6 @@
-import MovieCard from "./MovieCard";
+import Card from "./Card";
 
-function MovieList({ movies, onSelect }) {
+function Lista({ movies, onSelect }) {
   if (movies.length === 0) {
     return <p>No hay resultados</p>;
   }
@@ -18,4 +18,4 @@ function MovieList({ movies, onSelect }) {
   );
 }
 
-export default MovieList;
+export default Lista;

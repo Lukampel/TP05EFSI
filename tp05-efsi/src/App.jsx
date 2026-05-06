@@ -1,8 +1,8 @@
 import { useState } from "react";
-import SearchBar from "./componentes/SearchBar";
-import MovieList from "./componentes/MovieList";
-import MovieDetail from "./componentes/MovieDetail";
-import ErrorMessage from "./componentes/ErrorMessage";
+import SearchBar from "./componentes/Buscador";
+import MovieList from "./componentes/Lista";
+import MovieDetail from "./componentes/Detalle";
+import ErrorMessage from "./componentes/MensajedeError";
 import { searchMovies, getMovieById } from "./servicios/api";
 import Cargando from "./componentes/Cargando";
 import "./App.css";

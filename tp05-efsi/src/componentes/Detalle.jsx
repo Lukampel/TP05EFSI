@@ -1,4 +1,4 @@
-function MovieDetail({ movie }) {
+function Detalle({ movie }) {
   return (
     <div className="movie-detail">
       <h2>{movie.Title}</h2>
@@ -16,4 +16,4 @@ function MovieDetail({ movie }) {
   );
 }
 
-export default MovieDetail;
+export default Detalle;

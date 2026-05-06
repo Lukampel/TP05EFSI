@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function SearchBar({ onSearch }) {
+function Buscador({ onSearch }) {
   const [input, setInput] = useState("");
 
   const handleSubmit = (e) => {
@@ -21,4 +21,4 @@ function SearchBar({ onSearch }) {
   );
 }
 
-export default SearchBar;
+export default Buscador;

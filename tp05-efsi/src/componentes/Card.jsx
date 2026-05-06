@@ -1,4 +1,4 @@
-function MovieCard({ movie, onSelect }) {
+function Card({ movie, onSelect }) {
   return (
     <div className="movie-card" onClick={() => onSelect(movie.imdbID)}>
   <img
@@ -15,4 +15,4 @@ function MovieCard({ movie, onSelect }) {
   );
 }
 
-export default MovieCard;
+export default Card;
