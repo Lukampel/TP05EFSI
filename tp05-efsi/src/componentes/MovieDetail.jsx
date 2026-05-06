@@ -1,6 +1,6 @@
 function MovieDetail({ movie }) {
   return (
-    <div>
+    <div className="movie-detail">
       <h2>{movie.Title}</h2>
       <img src={movie.Poster} alt={movie.Title} />
       <p>Año: {movie.Year}</p>

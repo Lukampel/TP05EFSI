@@ -1,10 +1,11 @@
 import { useState } from "react";
-import SearchBar from "./components/SearchBar";
-import MovieList from "./components/MovieList";
-import MovieDetail from "./components/MovieDetail";
-import ErrorMessage from "./components/ErrorMessage";
-import { searchMovies, getMovieById } from "./services/api";
+import SearchBar from "./componentes/SearchBar";
+import MovieList from "./componentes/MovieList";
+import MovieDetail from "./componentes/MovieDetail";
+import ErrorMessage from "./componentes/ErrorMessage";
+import { searchMovies, getMovieById } from "./servicios/api";
 import Cargando from "./componentes/Cargando";
+import "./App.css";
 
 function App() {
   const [movies, setMovies] = useState([]);
