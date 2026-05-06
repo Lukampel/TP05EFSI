@@ -1,10 +1,10 @@
 import { useState } from "react";
-import SearchBar from "./componentes/Buscador";
-import MovieList from "./componentes/Lista";
-import MovieDetail from "./componentes/Detalle";
-import ErrorMessage from "./componentes/MensajedeError";
+import SearchBar from "./componentes/SearchBar";
+import MovieList from "./componentes/MovieList";
+import MovieDetail from "./componentes/MovieDetail";
+import ErrorMessage from "./componentes/ErrorMessage";
 import { searchMovies, getMovieById } from "./servicios/api";
-import Cargando from "./componentes/Cargando";
+import Cargando from "./componentes/Loader";
 import "./App.css";
 
 function App() {
